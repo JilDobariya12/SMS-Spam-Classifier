@@ -60,11 +60,7 @@ pip install -r requirements.txt
 
 ## 📌 Future Work
 
-- Deploy model with a web UI using Streamlit or Flask  
-- Experiment with deep learning models (e.g., LSTM, BERT)  
-- Publish to Heroku or AWS Lambda
-
-
-## 🤝 Contributing
+- Deploy model with a web UI using Streamlit or Flask or FastAPI
+- Experiment with deep learning models (e.g., LSTM, BERT)
 
 Feel free to fork this repo and open a pull request with improvements or suggestions.
