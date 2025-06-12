@@ -6,7 +6,7 @@ This project is a complete machine learning pipeline to detect spam messages in 
 
 📁 SMS-Spam-Detection  
 ├── SMS Detection1.ipynb        # Main notebook with data processing, training, and evaluation  
-├── Dataset_spam1.csv           # Labeled dataset for training and testing  
+├── spam1.csv                   # Labeled dataset for training and testing  
 ├── requirements.txt            # Required Python libraries  
 └── README.md                   # Project overview and documentation  
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## 📊 Dataset
 
-- File: `Dataset_spam1.csv`  
+- File: `spam1.csv`  
 - Description: Labeled SMS messages with two categories — `spam` and `ham`
 
 
