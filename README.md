@@ -44,7 +44,3 @@ This project builds a machine learning model to detect spam messages in SMS text
     ```bash
     jupyter notebook SMS\ Detection1.ipynb
     ```
-
-## 📦 Requirements
-    [requirements.txt](https://github.com/user-attachments/files/20709117/requirements.txt)#
-
