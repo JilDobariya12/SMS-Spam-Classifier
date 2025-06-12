@@ -10,6 +10,19 @@ This project is a complete machine learning pipeline to detect spam messages in 
 ├── requirements.txt            # Required Python libraries  
 └── README.md                   # Project overview and documentation  
 
+
+## 🛠️ Tech Stack
+
+- Python
+- Jupyter Notebook
+- Pandas
+- numpy
+- matlplotlib
+- streamlit
+- Scikit-learn
+- NLTK
+
+
 ## 🧠 Model Workflow
 
 1. Load and explore dataset  
@@ -30,18 +43,6 @@ pip install -r requirements.txt
 
 - File: `spam1.csv`  
 - Description: Labeled SMS messages with two categories — `spam` and `ham`
-
-
-## 🛠️ Tech Stack
-
-- Python
-- Jupyter Notebook
-- Pandas
-- numpy
-- matlplotlib
-- streamlit
-- Scikit-learn
-- NLTK
 
 
 ## 📈 Results
