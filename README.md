@@ -1,4 +1,4 @@
-# SMS Spam Detection 📩🚫
+[requirements.txt](https://github.com/user-attachments/files/20709117/requirements.txt)# SMS Spam Detection 📩🚫
 
 This project builds a machine learning model to detect spam messages in SMS texts using Natural Language Processing (NLP) techniques and classification algorithms.
 
@@ -46,4 +46,9 @@ This project builds a machine learning model to detect spam messages in SMS text
     ```
 
 ## 📦 Requirements
+[Uploadingpandas
+numpy
+scikit-learn
+nltk
+matplotlib requirements.txt…]()
 
