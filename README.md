@@ -15,6 +15,9 @@ This project builds a machine learning model to detect spam messages in SMS text
 - Python
 - Jupyter Notebook
 - Pandas
+- numpy
+- matlplotlib
+- streamlit
 - Scikit-learn
 - NLTK
 
