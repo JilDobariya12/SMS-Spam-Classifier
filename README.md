@@ -13,10 +13,8 @@ This project is a complete machine learning pipeline to detect spam messages in 
 
 ## 🛠️ Tech Stack
 
-- Python
 - Jupyter Notebook
-- Pandas
-- numpy
+- Pandas, numpy
 - matlplotlib
 - streamlit
 - Scikit-learn
@@ -31,6 +29,7 @@ This project is a complete machine learning pipeline to detect spam messages in 
 4. Model training using Multinomial Naive Bayes  
 5. Evaluation with accuracy, confusion matrix, and classification report  
 
+
 ## 🔧 Requirements
 
 Install all dependencies using:
@@ -38,6 +37,7 @@ Install all dependencies using:
 ```
 pip install -r requirements.txt
 ```
+
 
 ## 📊 Dataset
 
@@ -50,17 +50,20 @@ pip install -r requirements.txt
 - High model performance on test data  
 - Evaluation metrics include: Accuracy, Precision, Recall, and F1-score
 
+
 ## 🚀 How to Run
 
 1. Clone this repository  
 2. Install dependencies from `requirements.txt`  
 3. Open and run `SMS Detection1.ipynb` in Jupyter Notebook or Google Colab
 
+
 ## 📌 Future Work
 
 - Deploy model with a web UI using Streamlit or Flask  
 - Experiment with deep learning models (e.g., LSTM, BERT)  
 - Publish to Heroku or AWS Lambda
+
 
 ## 🤝 Contributing
 
