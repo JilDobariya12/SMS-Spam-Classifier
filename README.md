@@ -1,14 +1,36 @@
-# SMS Spam Detection 📩🚫
+# 📱 SMS Spam Detection using Machine Learning
 
-This project builds a machine learning model to detect spam messages in SMS texts using Natural Language Processing (NLP) techniques and classification algorithms.
+This project is a complete machine learning pipeline to detect spam messages in SMS text. It uses Natural Language Processing (NLP) techniques and a Multinomial Naive Bayes model to classify messages as either "spam" or "ham" (not spam).
 
-## 📌 Features
+## 📂 Project Structure
 
-- Text preprocessing using NLP (lowercasing, punctuation removal, stopword removal, stemming)
-- TF-IDF vectorization
-- Training classification models (e.g., Naive Bayes, Logistic Regression)
-- Evaluation using accuracy, confusion matrix, precision, and recall
-- Jupyter Notebook for easy experimentation
+📁 SMS-Spam-Detection  
+├── SMS Detection1.ipynb        # Main notebook with data processing, training, and evaluation  
+├── Dataset_spam1.csv           # Labeled dataset for training and testing  
+├── requirements.txt            # Required Python libraries  
+└── README.md                   # Project overview and documentation  
+
+## 🧠 Model Workflow
+
+1. Load and explore dataset  
+2. Text preprocessing (lowercasing, punctuation removal, stopword removal, tokenization using NLTK)  
+3. Feature extraction using TF-IDF Vectorizer  
+4. Model training using Multinomial Naive Bayes  
+5. Evaluation with accuracy, confusion matrix, and classification report  
+
+## 🔧 Requirements
+
+Install all dependencies using:
+
+```
+pip install -r requirements.txt
+```
+
+## 📊 Dataset
+
+- File: `Dataset_spam1.csv`  
+- Description: Labeled SMS messages with two categories — `spam` and `ham`
+
 
 ## 🛠️ Tech Stack
 
@@ -21,26 +43,24 @@ This project builds a machine learning model to detect spam messages in SMS text
 - Scikit-learn
 - NLTK
 
-## 📂 Files
 
-- `SMS Detection1.ipynb`: Main Jupyter Notebook containing the code
-- `README.md`: Project overview and setup instructions
-- `requirements.txt`: List of required Python libraries (see below)
+## 📈 Results
 
-## ✅ How to Run
+- High model performance on test data  
+- Evaluation metrics include: Accuracy, Precision, Recall, and F1-score
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/sms-spam-detection.git
-    cd sms-spam-detection
-    ```
+## 🚀 How to Run
 
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. Clone this repository  
+2. Install dependencies from `requirements.txt`  
+3. Open and run `SMS Detection1.ipynb` in Jupyter Notebook or Google Colab
 
-3. Open the notebook:
-    ```bash
-    jupyter notebook SMS\ Detection1.ipynb
-    ```
+## 📌 Future Work
+
+- Deploy model with a web UI using Streamlit or Flask  
+- Experiment with deep learning models (e.g., LSTM, BERT)  
+- Publish to Heroku or AWS Lambda
+
+## 🤝 Contributing
+
+Feel free to fork this repo and open a pull request with improvements or suggestions.
